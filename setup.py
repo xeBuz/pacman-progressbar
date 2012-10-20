@@ -1,11 +1,12 @@
+#from distutils.core import setup
 from setuptools import setup, find_packages
 setup(
     name='PacmanProgressbar',
     version='0.1',
-    packages = find_packages(),
+    py_modules=['PacmanProgressbar'],
 
     author='Jesús F. Roldán',
-    author_email='jesus.roldan@gmail.com',
+    author_email='jesus.roldan@gmail.com',    
     url='https://github.com/xeBuz/pacman-progressbar',
     license='LICENSE.txt',
     description='Progressbar based on Arch\'s Pacman progressbar',
