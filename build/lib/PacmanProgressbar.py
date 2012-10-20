@@ -3,7 +3,6 @@
 import sys
 import os
 import itertools
-import time
 
 MARGIN  = 3
 DEFAULT_WIDTH = int(os.popen('stty size', 'r').read().split()[1]) - MARGIN
