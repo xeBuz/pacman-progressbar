@@ -12,9 +12,9 @@ class Pacman():
     """ PacMan Progress Bar: 
     Parameters:
         Start: It should be 0
-        End: 
+        End: Defines the dimension of the bar in an amount of items or steps, Default 100
         Width: Size (in chars) of the bar. Default = Console Size
-        Step: Current position in the progrressbar, Default 
+        Step: Current position in the progrressbar, Default 0
     """
     def __init__(self, Start=0, End=100, Width=-1, Step=0):
         self.start = Start

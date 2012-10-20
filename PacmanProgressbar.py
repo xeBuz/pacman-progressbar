@@ -12,9 +12,9 @@ class Pacman():
     """ PacMan Progress Bar: 
     Parameters:
         Start: It should be 0
-        End: 
+        End: Defines the dimension of the bar in an amount of items or steps, Default 100
         Width: Size (in chars) of the bar. Default = Console Size
-        Step: Current position in the progrressbar, Default 
+        Step: Current position in the progrressbar, Default 0
     """
     def __init__(self, Start=0, End=100, Width=-1, Step=0):
         self.start = Start
@@ -43,10 +43,16 @@ class Pacman():
         self.write("]")
 
     def update(self, value = 1):
+        """ Update the progress in the bar 
+            Parameter: value, is the incresing size of the bar. By default is 1.
+        """
         self.step = self.step + value
         self.draw()
 
     def progress(self, value):
+        """ Set the progress in the bar 
+            Parameter: value, is the specify size of the bar. No default value.
+        """        
         self.step = value
         self.draw()
 
@@ -55,10 +61,6 @@ class Pacman():
 
     def get_console_size(self):
         return int(os.popen('stty size', 'r').read().split()[1])
-
-    def clear():
-        self.step = 0
-        self.percetage = 0
 
     def set_percentage(self):
         self.percentage = format((100 * float(self.step)/float(self.end)),'.1f')
