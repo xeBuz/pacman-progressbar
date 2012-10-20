@@ -1,10 +1,11 @@
 #!/usr/bin/env python
+import time
 
-import PacmanProgressbar
+from PacmanProgressbar import Pacman
 
 
 if __name__ == "__main__":
-    p = PacmanProgressbar(End=100)
+    p = Pacman(End=100)
 
     for x in range(p.len):
         p.update()
