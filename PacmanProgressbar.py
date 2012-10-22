@@ -87,6 +87,6 @@ class Pacman():
 
         sys.stdout.flush()
 
-        if (self.step == self.end):
+        if (self.step == self.len):
             self.__write("\n")
 
