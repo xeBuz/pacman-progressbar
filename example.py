@@ -9,5 +9,6 @@ if __name__ == "__main__":
 
     for x in range(p.len):
         p.update()
-        time.sleep(.18)
+        time.sleep(.1)
         
+    print("Finalizado")

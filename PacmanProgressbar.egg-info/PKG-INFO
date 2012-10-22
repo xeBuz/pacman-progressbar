@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: PacmanProgressbar
-Version: 0.1
+Version: 0.2
 Summary: Progressbar based on Arch's Pacman progressbar
 Home-page: https://github.com/xeBuz/pacman-progressbar
 Author: Jesús F. Roldán
