@@ -18,13 +18,19 @@ class Pacman():
         End: Defines the dimension of the bar in an amount of items or steps
         Width: Size (in chars) of the bar. Default = Console Size
         Step: Current position in the progrressbar, Default 0
+        Text: Write some text at the beginning of the line
     """
-    def __init__(self, Start=0, End=100, Width=-1, Step=0):
+    def __init__(self, Start=0, End=100, Width=-1, Step=0, Text=''):
         self.start = Start
         self.end = End
 
         self.percentage = 0
         self.step = Step
+
+        if (Text != ''):
+            self.text = Text + ': '
+        else:
+            self.text = ''
 
         self.len = self.end - self.start
 
@@ -69,7 +75,7 @@ class Pacman():
 
         self.__set_percentage()
 
-        porc = "\r" + str(self.percentage) + "%["
+        porc = "\r" + str(self.text) + str(self.percentage) + "%["
         pos = (((self.step / (self.end - self.start) * 100) * (self.width - len(porc))) / 100)
 
         self.__write(porc)
