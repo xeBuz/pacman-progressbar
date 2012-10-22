@@ -1,3 +1,8 @@
+2012-08-22:
+  - Released version 0.2.
+  - PEP8.
+  - Added a new parameter, now you can write some text at the beginning of the line.
+
 2012-08-18:
   - First Release.
   - Released version 0.1.
