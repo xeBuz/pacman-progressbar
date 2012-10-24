@@ -1,4 +1,8 @@
 2012-08-24:
+  - Released version 0.3.
+  - Now works with Python2.7 and Python3.X.
+
+2012-08-24:
   - Released version 0.2.1
   - Fix: Last character
   - Refactoring. More pythonic code

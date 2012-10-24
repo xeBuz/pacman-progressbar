@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pacmanprogressbar
+Version: 0.3
+Summary: Progressbar based on Arch's Pacman progressbar
+Home-page: https://github.com/xeBuz/pacman-progressbar
+Author: Jesús F. Roldán
+Author-email: jesus.roldan@gmail.com
+License: LICENSE.txt
+Description: Pacman-progressbar
+        ==================
+        
+        ProgreessBar for Python, based on Arch progressbar, with "ILoveCandy"
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities

@@ -34,12 +34,17 @@ class Pacman():
         self.end = end
         self.percentage = 0
         self.step = step
-        self.text = text + ': ' if text != '' else ''
+        if (text != ''):
+            self.text = text + ': '
+        else:
+            self.text = ''
         self.len = self.end - self.start
+
         if ((width - MARGIN) in range(0, DEFAULT_WIDTH)):
             self.width = width - MARGIN
         else:
             self.width = DEFAULT_WIDTH
+
         self.bar = "-"
         self.pacman = itertools.cycle(PACMAN)
         self.candy = itertools.cycle(CANDY)
