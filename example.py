@@ -4,7 +4,7 @@ from pacmanprogressbar import Pacman
 
 
 if __name__ == "__main__":
-    p = Pacman(end=100, text="asdadsasda")
+    p = Pacman(end=100, text="Progress")
 
     for x in range(p.len):
         p.update()
