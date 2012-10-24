@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
+# pacmanprogress.py
 
-# "pacmanprogress.py"
-
-import sys
+import sys 
 import os
 import itertools
 
@@ -14,8 +13,8 @@ CANDY = ["\033[0;37mo\033[m", "\033[0;37m \033[m", "\033[0;37m \033[m"]
 
 
 class Pacman():
-   """PacMan Progress Bar"""
-
+    """PacMan Progress Bar"""
+ 
     def __init__(self, start=0, end=100, width=-1, step=0, text=''):
         """Create a new instance
 
@@ -37,7 +36,7 @@ class Pacman():
             self.text = ''
         self.len = self.end - self.start
 
-        if ((Width - MARGIN) in range(0, DEFAULT_WIDTH)):
+        if ((width - MARGIN) in range(0, DEFAULT_WIDTH)):
             self.width = width - MARGIN
         else:
             self.width = DEFAULT_WIDTH
@@ -51,8 +50,8 @@ class Pacman():
             self.candybar[i] = next(self.candy)
 
         for i in range(len(self.candybar)):
-            self.__write(self.candybar[i])
-        self.__write("]")
+            self._write(self.candybar[i])
+        self._write("]")
 
     def _write(self, value='', encode='UTF-8'):
         sys.stdout.buffer.write(bytes(value, encode))
@@ -68,10 +67,12 @@ class Pacman():
         pos = (((self.step / (self.end - self.start) * 100)
                * (self.width - len(porc))) / 100)
         self._write(porc)
+            
         for i in range(int(pos)):
             self._write(self.bar)
         self._write(next(self.pacman))
         sys.stdout.flush()
+        
         if self.step == self.len:
             self._write("\n")
 
