@@ -1,6 +1,0 @@
-PacmanProgressbar.py
-setup.py
-PacmanProgressbar.egg-info/PKG-INFO
-PacmanProgressbar.egg-info/SOURCES.txt
-PacmanProgressbar.egg-info/dependency_links.txt
-PacmanProgressbar.egg-info/top_level.txt
