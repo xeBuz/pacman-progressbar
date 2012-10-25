@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# coding: UTF-8
+# coding: utf-8
 
 # pacmanprogress.py
 
@@ -86,7 +86,7 @@ class Pacman():
 
     def progress(self, value):
         """ Set the progress in the bar
-            Parameter: value, is the specify size of the bar. No default value
+            Parameter: value, is the specific size of the bar. No default value
         """
-        self.step = value
+        self.step = float(value)
         self._draw()
