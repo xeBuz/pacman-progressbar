@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 setup(
     name='pacmanprogressbar',
-    version='0.3',
+    version='0.3.1',
     py_modules=['pacmanprogressbar'],
 
     author='Jesús F. Roldán',

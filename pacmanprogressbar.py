@@ -7,7 +7,7 @@ import sys
 import os
 import itertools
 
-__version__ = "0.3"
+__version__ = "0.3.1"
 
 MARGIN = 3
 DEFAULT_WIDTH = int(os.popen('stty size', 'r').read().split()[1]) - MARGIN
