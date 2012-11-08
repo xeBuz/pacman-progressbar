@@ -8,9 +8,10 @@ Usage
 =================
 
 Import the package and create an progressbar
-
+~~~~~ python
 	from pacmanprogressbar import Pacman
     p = Pacman()
+~~~~~
 
 Parameters, all are optionals
     start: It should be 0.
