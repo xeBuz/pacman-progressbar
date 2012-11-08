@@ -1,13 +1,13 @@
 Pacman-progressbar
 ==================
 
-A ProgreessBar for Python, based on Arch progressbar, with "ILoveCandy" option enabled.
+A ProgressBar for Python, based on Arch progressbar, with "ILoveCandy" option enabled.
 
 
 Usage
 =================
 
-Import the package and create an progressbar
+Import the package and create the bar
 ~~~~~ python
 	from pacmanprogressbar import Pacman
     p = Pacman()
@@ -15,6 +15,7 @@ Import the package and create an progressbar
 
 Parameters
 ----------
+All the parameters are optionals
     start: It should be 0.
     end: Defines the bar's dimension in an amount of items or "steps", by default is 100.
     width: Size (in chars) of the bar, by default is the console size. 
