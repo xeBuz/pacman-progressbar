@@ -24,12 +24,13 @@ Parameters
 
 Methods
 -------
-~~~~~ python
-p.update([value])
-~~~~~
-Update the progress, incresing the size by 1, or by the "value" parameter.
-
+Update the progress, incresing the size by 1, or by the "value" parameter:
 	~~~~~ python
-    p.progress(value):
-    ~~~~~
-	Set an specified progress, the parameters is mandatory.
+	p.update([value])
+	~~~~~
+
+
+Set an specified progress, the parameters is mandatory:
+	~~~~~ python
+	p.progress(value):
+	~~~~~
