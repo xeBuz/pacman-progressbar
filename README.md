@@ -20,7 +20,7 @@ Parameters
     width: Size (in chars) of the bar, by default is the console size. 
     step: Current position in the progrressbar, Default 0.
     text: Write some text at the beginning of the line.
-
+    
 
 Methods
 -------
@@ -33,3 +33,8 @@ Update the progress, incresing the size by 1, or by the "value" parameter
 p.progress(value):
 ~~~~~
 Set an specified progress, the parameters is mandatory:
+
+
+Output
+----------   
+![Alt text](http://i.imgur.com/7oh3T6x.gif)
