@@ -8,10 +8,10 @@ Usage
 =================
 
 Import the package and create the bar
-~~~~~ python
-	from pacmanprogressbar import Pacman
-    p = Pacman()
-~~~~~
+```python
+from pacmanprogressbar import Pacman
+ p = Pacman()
+```
 
 Parameters
 ----------
@@ -24,14 +24,14 @@ Parameters
 
 Methods
 -------
-~~~~~ python
+``` python
 p.update([value])
-~~~~~
+```
 Update the progress, incresing the size by 1, or by the "value" parameter
 
-~~~~~ python
+```python
 p.progress(value):
-~~~~~
+```
 Set an specified progress, the parameters is mandatory:
 
 
