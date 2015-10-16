@@ -1,22 +1,26 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from setuptools import setup, find_packages
+from setuptools import setup
+
 setup(
     name='pacmanprogressbar',
-    version='0.3.2',
+    version='1.0',
     py_modules=['pacmanprogressbar'],
 
-    author='Jesús F. Roldán',
+    author='Jesús Roldán',
     author_email='jesus.roldan@gmail.com',    
     url='https://github.com/xeBuz/pacman-progressbar',
-    license='LICENSE.txt',
+    license='MIT',
+
     description='ProgreessBar for Python, based on Arch progressbar, with "ILoveCandy" option enabled',
     long_description=open('README.md').read(),
+
     classifiers=[
             "Development Status :: 4 - Beta",
             "Environment :: Console",
-            "License :: OSI Approved :: BSD License",
+            'License :: OSI Approved :: MIT License',
+            'Operating System :: OS Independent',
             "Programming Language :: Python",
             "Topic :: Utilities",
         ],
