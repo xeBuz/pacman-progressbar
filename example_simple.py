@@ -1,7 +1,7 @@
 #!/usr/bin/env python
+
 import time
 from pacmanprogressbar import Pacman
-
 
 if __name__ == "__main__":
 
