@@ -1,5 +1,6 @@
 Pacman-progressbar
 ==================
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FxeBuz%2Fpacman-progressbar.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FxeBuz%2Fpacman-progressbar?ref=badge_shield)
 
 A ProgressBar for Python, based on Arch progressbar, with `ILoveCandy` option enabled.
 
@@ -48,7 +49,6 @@ Set an specified progress, the parameters is mandatory:
 #### Output
 ----------   
 ![Alt text](http://i.imgur.com/7oh3T6x.gif)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FxeBuz%2Fpacman-progressbar.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FxeBuz%2Fpacman-progressbar?ref=badge_shield)
 
 
 ## License
